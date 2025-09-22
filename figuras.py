@@ -12,10 +12,10 @@ def triangulo(base, altura):
 
     
 # Figura del círculo
-def circulo(radio):
+def circulo(base):
     """Calcula el área y perímetro del círculo"""
-    area = math.pi * (radio ** 2)
-    perimetro = 2 * math.pi * radio
+    area = math.pi * (base ** 2)
+    perimetro = 2 * math.pi * base
     return area, perimetro
 
 

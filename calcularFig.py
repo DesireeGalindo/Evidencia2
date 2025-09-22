@@ -8,8 +8,8 @@ print(df)
 
 for index, row in df.iterrows():
     figura = row['FIGURA']
-    base = row['MEDIDA1']
-    altura = row['MEDIDA2']
+    base = float(row['MEDIDA1'])
+    altura = float(row['MEDIDA2'])
 
     # calculamos según la figura
     if figura == 't':  # triángulo
